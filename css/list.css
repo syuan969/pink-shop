@@ -1,0 +1,155 @@
+.nav {
+    overflow: hidden;
+}
+
+p {
+    display: inline-block;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    font-size: 16px;
+    line-height: 47px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 49px;
+    padding: 0 23px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    position: absolute;
+    top: 1px;
+    right: 7px;
+    font-family: 'icomoon';
+}
+
+
+/* end */
+
+
+/* 列表页主体部分 */
+
+.sk_container {
+    margin-bottom: 30px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-top: 25px;
+    margin-right: 13px;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 2px solid #c81523;
+    z-index: 2;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li img {
+    width: 290px;
+    height: 290px;
+}
+
+.sk_bd ul li .content {
+    width: 290px;
+    height: 120px;
+}
+
+.sk_bd ul li .content h4 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666;
+    font-weight: 400;
+    padding: 7px 12px 0;
+}
+
+
+/* .sk_bd ul li .info {
+    text-decoration: line-through;
+} */
+
+.sk_bd ul li .info {
+    padding: 10px 12px 0;
+}
+
+.sk_bd ul li .info span {
+    font-size: 22px;
+    color: #c60012;
+}
+
+.sk_bd ul li .info s {
+    margin-left: 8px;
+}
+
+.sk_bd ul li .ljshop {
+    display: inline-block;
+    width: 290px;
+    height: 50px;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+.ing {
+    padding: 0 12px;
+}
+
+.shoping {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+    margin: -1px 12px;
+}
+
+.shoping .shoplr {
+    width: 87%;
+    height: 100%;
+    border-radius: 6px 0 0 6px;
+    background-color: #ff0000;
+}
+
+.ljshop p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}

@@ -1,0 +1,178 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo img {
+    margin-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    line-height: 42px;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 14px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.style_red {
+    color: #c81523;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.error {
+    color: #c81523;
+    font-size: 12px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+}
+
+.success {
+    color: green;
+    font-size: 12px;
+}
+
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.safa {
+    color: #b2b2b2;
+    margin-left: 165px;
+}
+
+.safa em {
+    font-size: 12px;
+    padding: 0 12px;
+    margin-left: 1px;
+}
+
+.safa em:nth-child(1) {
+    color: #fff;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.safa em:nth-child(2) {
+    color: #fff;
+    background-color: orange;
+}
+
+.safa em:nth-child(3) {
+    color: #fff;
+    background-color: green;
+}
+
+.agree {
+    margin-left: 92px;
+    margin-top: 37px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.submit {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 92px;
+    margin-top: 30px;
+}
+
+
+/* footer */
+
+.footer {
+    height: 120px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copyright {
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.links .copyup {
+    margin-left: 117px;
+}
+
+.links .copyup ul li {
+    float: left;
+}
+
+.links .copyup ul li a {
+    font-size: 12px;
+}
+
+.links .copyup ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #ccc;
+    margin: 3px 15px 0;
+}
